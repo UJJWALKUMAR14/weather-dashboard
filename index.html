@@ -24,7 +24,7 @@
                 const city = $('#city-input').val();
                 if (city) {
                     $.ajax({
-                        url: '/api/weather',
+                        url: 'https://weather-dashboard-21r.pages.dev/',
                         method: 'GET',
                         data: { city: city },
                         success: function(data) {
