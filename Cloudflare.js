@@ -7,7 +7,7 @@ addEventListener('fetch', event => {
     const city = url.searchParams.get('city')
   
     if (request.method === 'GET' && url.pathname === '/api/weather' && city) {
-      const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY'
+      const apiKey = '7ea75ca4dc989939a44ce503f3d85926'
       const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
   
       try {
